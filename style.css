@@ -1,16 +1,14 @@
-/* FONT E COLORI BASE */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #0f172a; /* blu molto scuro */
-  color: #e2e8f0; /* grigio chiaro */
+  background-color: #0f172a;
+  color: #e2e8f0;
   margin: 0;
   padding: 0;
 }
 
-/* HEADER */
 header {
-  background-color: #1e293b; /* blu-grigio medio */
-  color: #38bdf8; /* azzurrino */
+  background-color: #1e293b; 
+  color: #38bdf8; 
   text-align: center;
   padding: 50px 20px;
   border-bottom: 2px solid #38bdf8;
@@ -26,47 +24,6 @@ header p {
   color: #94a3b8;
 }
 
-/* SEZIONE PROGETTI */
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-section h2 {
-  color: #38bdf8;
-  border-bottom: 1px solid #334155;
-  padding-bottom: 10px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  background: #1e293b;
-  margin: 10px 0;
-  padding: 15px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-li:hover {
-  background: #334155;
-  transform: translateY(-3px);
-}
-
-a {
-  color: #38bdf8;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
